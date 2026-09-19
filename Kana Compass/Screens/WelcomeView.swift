@@ -53,7 +53,7 @@ private let welcomeSlides: [WelcomeSlide] = [
         bullets: [
             ("safari", "Select Specific Rows", "Choose which rows to drill"),
             ("square.grid.3x3.fill", "Training vs Practice", "Switch between training (labels shown) and practice (blind) stages"),
-            ("text.bubble", "Toggle Secondary Marks", "Toggle Dakuten, Handakuten, and Small Kana on or off")
+            ("text.bubble", "Toggle Secondary Marks", "Toggle dakuten, handakuten, and small kana on or off")
         ],
         showsKeyboardImage: false,
         showsCompassDiagram: false
