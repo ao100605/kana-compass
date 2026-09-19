@@ -1,8 +1,8 @@
 # Kana Compass
 
-Kana Compass is an iOS app for learning to type Japanese hiragana the way a real phone does — with the flick gestures used on the standard Japanese flick keyboard, instead of a full alphabet keyboard.
+Kana Compass is an iOS app for learning to type Japanese FAST using the 12-key kana smartphone keyboard — using flick gestures to type Japanese characters directly rather than spelling them out with a full QWERTY romaji keyboard.
 
-Each of the ten gojūon rows (あ, か, さ, た, な, は, ま, や, ら, わ) lives on a single key. Tap the center for that row's base kana, or flick up, down, left, or right to reach the other four — the same mechanic used to type Japanese on a real phone keyboard.
+Each of the ten gojūon rows (あ, か, さ, た, な, は, ま, や, ら, わ) lives on a single key. Tap the center for that row's base kana, or flick left, up, right, or down to reach the other four — the same mechanic used to type Japanese on the kana keyboard.
 
 ## Features
 
