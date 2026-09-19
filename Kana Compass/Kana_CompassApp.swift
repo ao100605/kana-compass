@@ -18,12 +18,21 @@ struct Kana_CompassApp: App {
 
 private struct RootView: View {
     @State private var isLoading = true
+    @State private var hasSeenWelcome = UserDefaults.standard.bool(forKey: "hasSeenWelcome")
 
     var body: some View {
         Group {
             if isLoading {
                 LoadingView()
                     .transition(.opacity)
+            } else if !hasSeenWelcome {
+                WelcomeView {
+                    UserDefaults.standard.set(true, forKey: "hasSeenWelcome")
+                    withAnimation(.easeInOut(duration: 0.3)) {
+                        hasSeenWelcome = true
+                    }
+                }
+                .transition(.opacity)
             } else {
                 ContentView()
                     .transition(.opacity)
